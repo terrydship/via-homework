@@ -1,4 +1,4 @@
-# Project Title
+# Homework
 
 It is a take-home coding challenge.
 
@@ -86,9 +86,9 @@ i.e. `http://localhost:8080/homework/api/anagrams/cinema/iceman`
 http://{host}:{port}/homework/api/anagrams/{string1}/{string2}
 ```
 
-* Use the following URL to check if two strings are anagrams of each other.
+* Use the following URL to return all the possible anagrams of the given string.
 i.e. `http://localhost:8080/homework/api/anagrams/abcd`
 ```
 http://{host}:{port}/homework/api/anagrams/{string1}
 ```
-A `RuntimeException` with a 400 http status code will be thrown when input string is not alpha-numerical.
+Note that a `RuntimeException` with a `400` http status code will be thrown when input string is not alpha-numerical.
